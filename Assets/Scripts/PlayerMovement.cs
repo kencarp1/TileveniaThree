@@ -4,8 +4,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-   Vector2 moveInput;
-   Rigidbody2D myRigidbody;
+    [SerializeField] float moveSpeed = 5f;
+    Vector2 moveInput;
+    Rigidbody2D myRigidbody;
    
     void Start()
     {
@@ -14,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        FlipSprite();
         Run();
     }
 
@@ -24,6 +26,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Run()
     {
-        myRigidbody.linearVelocity = moveInput;
+        Vector2 playerVelocity = new Vector2(moveInput.x * moveSpeed, myRigidbody.linearVelocity.y);
+        myRigidbody.linearVelocity = playerVelocity;
+    }
+
+    void FlipSprite()
+    {
+       
     }
 }
