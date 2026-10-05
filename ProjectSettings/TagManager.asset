@@ -15,8 +15,8 @@ TagManager:
   - Climbing
   - Player
   - Bouncing
-  - 
-  - 
+  - Enemy
+  - Hazards
   - 
   - Background
   - 
@@ -49,6 +49,9 @@ TagManager:
     locked: 0
   - name: Platform
     uniqueID: 1402075149
+    locked: 0
+  - name: Hazards
+    uniqueID: 1099878665
     locked: 0
   - name: Ladder
     uniqueID: 4106561145
