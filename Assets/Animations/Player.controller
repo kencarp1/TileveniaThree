@@ -47,7 +47,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 7556cd108eac92e4ca1810c6614cc19e, type: 2}
+  m_Motion: {fileID: 7400000, guid: 03ace0d4aea3eed4bb01395769f23833, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -99,7 +99,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 297610df00415b4438eb3f740b8f6d58, type: 2}
+  m_Motion: {fileID: 7400000, guid: 42bafc673feb20943a38ee46015e001d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -125,7 +125,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 6dafe6cbf4e1dfb40b25df9074e34081, type: 2}
+  m_Motion: {fileID: 7400000, guid: aea0e972292560148ad1aa3dce04636f, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -286,7 +286,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Climbing
-  m_Speed: 0.5
+  m_Speed: 0.88
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 6652571844438778471}
@@ -299,7 +299,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f93b835a3855fa547b674f526b3a4e32, type: 2}
+  m_Motion: {fileID: 7400000, guid: cc48aa60b9ab0f346aef1c07d792d1d2, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
